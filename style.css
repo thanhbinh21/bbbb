@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.wrapper{
+    height: 650px;
+    width: 960px;
+    border: 2px solid rgb(138, 123, 123);
+}
+.header{
+    height: 30%;
+    background-image: url(/image.png);
+    background-size: cover;
+    border-bottom:2px solid brown ;
+}
+.header_content{
+    margin: 0;
+    width: 30%;
+    padding-left: 10px;
+    max-height: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.nav{
+    max-height: 50%;
+}
+.menu{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu_item{
+    list-style: none;
+    margin: 0px;
+    background-color: aqua;
+    width: 14%;
+    height: 50px; text-align: center;
+    line-height: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+
+}
+.menu_item:nth-child(5){
+    transform: rotate(50deg);
+    position: relative;
+    top:-40px;
+    right:-20px;
+}
+.menu_item a{
+   
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu_item:hover{
+    transition: all 1.5s;
+    transform: rotateY(360deg);
+}
+.content{
+    height: 55%;
+    display: flex;
+    background-color: bisque;
+
+}
+.aside{
+    margin: 0;
+    width: 40%;
+    border-right: 3px solid rgb(207, 195, 171);
+}
+.aside_tt{
+    padding-top: 10px;
+   text-align: center;
+    height: 20%;
+    border-bottom: 2px dotted red;
+}
+.aside_tt>.search{
+    margin-bottom: 10px;
+}
+.aside_tt>.search label{
+    color: black;
+    font-weight: 500;
+}
+.aside_tt>.search button{
+    background-color: rgb(170, 100, 235);
+    border-radius: 10px;
+}
+.aside_tt>.text{
+    color: brown;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px yellowgreen;
+}
+
+.aside_content{
+    height: 70%;
+    border-bottom: 2px dotted red;
+}
+.aside_content>.top{
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 2px dotted red;
+
+}
+.aside_content>.top h3{
+    color: red;
+}
+.thumbnail{
+    display: flex;
+}
+.thumbnail>img{
+    margin: 0;
+    width: 20%;
+    height: 70px;
+    
+}
+.thumbnail>img:hover{
+    transition: all 1s;
+    transform:rotateY(-360deg) ;
+}
+.thumbnail>.text{
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
+   
+}
